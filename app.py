@@ -4,7 +4,7 @@ import os
 import base64
 
 from IPython.display import Image, display
-UPLOAD_FOLDER = 'C:\\Users\\dell\\Desktop\\Test_AI\\images\\'
+UPLOAD_FOLDER = 'PUT YOUR PATH HERE'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 app = Flask(__name__,static_url_path='', 
